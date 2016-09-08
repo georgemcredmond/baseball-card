@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 900px;
+	padding: 0;
+	margin: 0 auto;
+}
+#left, #right {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+}
+#left {
+	border: 5px dashed red;
+	/*width: 66.666666%;*/
+	width: 600px;
+}
+#right {
+	border: 5px dashed green;
+	/*width: 33.333333%;*/
+	width: 300px;
+}
+/**BASEBALL CARD LAYOUT**/
+.baseball-card {
+	background-color: darkgreen;
+	width: 300px;
+	height: 400px;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 3px 2px grey;
+	position: relative;
+	overflow: hidden;
+}
+.baseball-card img{
+	width: 280px;
+	height: 280px;
+	border-radius: 8px;
+}
+.baseball-card .ribbon {
+	position: absolute;
+	background-color: orange;
+	top: 17px;
+	right: -25px;
+	transform: rotateZ(45deg);
+	width: 100px;
+	padding: 3px;
+	text-align: center;
+}
+
+
+
